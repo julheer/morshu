@@ -52,7 +52,7 @@ def main():
             print("Недостаточно денег!")
             exit()
         else:
-            sql.execute(f"UPDATE users SET balance = {balance - 5} WHERE id = '1'")
+            sql.execute(f"UPDATE users SET balance = {balance - 12} WHERE id = '1'")
             db.commit()
             print("Вы успешно приобрели несколько бомб")
 
